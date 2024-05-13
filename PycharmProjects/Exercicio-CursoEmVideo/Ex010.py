@@ -11,6 +11,6 @@ print('='*20)
 
 reais = float(input('Digite o valor em reais a ser convertido: R$'))
 
-dolar = reais * 3.27
+dolar = reais / 3.27
 
-print(f"O valor R${reais} Convertido corresponde a US${dolar}.")
+print(f"O valor R${reais:.2f} Convertido corresponde a US${dolar:.2f}.")

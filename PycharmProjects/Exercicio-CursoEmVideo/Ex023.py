@@ -7,17 +7,12 @@ centenas: 8
 milhar: 1
 '''
 
-u = 0
-d = 0
-c = 0
-m = 0
+num = int(input('Digite um valor entre 0 e 9999: '))
 
-num = str(input('Digite um valor entre 0 e 9999: ')).strip()
-
-u = num[3]
-d = num[2]
-c = num[1]
-m = num[0]
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
 
 print(f'''Unidades: {u}
 Dezenas: {d}

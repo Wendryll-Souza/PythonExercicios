@@ -12,4 +12,4 @@ if numero > 0:
     else:
         print(f'Número {numero} não é um número primo.')
 else:
-    print('Não existem número primos negativos.')
+    print('Não existem número primos negativos ou nulos.')

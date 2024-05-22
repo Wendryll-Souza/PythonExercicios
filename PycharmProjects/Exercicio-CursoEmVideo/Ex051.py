@@ -13,3 +13,4 @@ print('PA: ')
 for i in range(0,10):
     print(f'{termo} ',end='')
     termo += razao
+print('...')

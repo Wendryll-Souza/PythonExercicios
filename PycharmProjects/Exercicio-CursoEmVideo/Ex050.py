@@ -1,4 +1,4 @@
-'''Desenvolva um programa que leia seis npumero inteiros e mostre a soma apenas daqueles que foram pares, se o valor
+'''Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles que foram pares, se o valor
 digitado for impar desconsidere-o.'''
 
 soma = 0
